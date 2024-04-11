@@ -1,0 +1,9 @@
+składnia komendy:
+options = optimoptions("ga","MaxGenerations",500,"MaxStallGenerations",50)
+ga(@dmcmin, 3, [], [], [], [], [1, 1, 1], [150, 100, 20], [], [1, 2], options)
+
+parametry uzyskane:
+
+N = 121
+Nu = 5
+lambda = 0.0141

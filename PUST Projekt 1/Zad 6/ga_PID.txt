@@ -1,0 +1,7 @@
+Kr = 1.1
+Ti = 5.7430
+Td = 4.2751
+
+składnia komendy:
+options = optimoptions("ga","MaxGenerations",500,"MaxStallGenerations",50)
+ga(@pidmin, 3, [], [], [], [], [0.1, 0.1, 0.1], [1.1, 10, 5], [], [], options)
